@@ -1,0 +1,88 @@
+.tabs{
+    margin: 0 30% 0 40%;
+}
+.box {
+    padding: 10px;
+    }
+.botones-movil {
+    display: none;
+    background-color: #000;
+}
+#formEPerfil{
+    position: absolute;
+    z-index: 999999;
+    height: auto;
+}
+#formEUser{
+    position: relative;
+}
+.botones-editar{
+    position: fixed;
+    bottom: -10px;
+}
+
+.oculta{
+    display: none;
+}
+
+.titulo-collapse{
+    cursor: pointer;
+}
+.fondo-blanco{
+    background-color: #fff;
+}
+.contenido{
+   height: 2000px;
+}
+
+.contenedor-imagenes{
+    background-color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.imagen{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.imagen img{
+    width: 70%;
+}
+
+.titulo-imagen{
+    background-color: #FFF;
+    color: #000;
+}
+.titulo-imagen h4{
+    border-bottom: 2px solid #FFC300;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .tabs {
+        margin: 0 10% 0 20%;
+    }
+
+    .fondo-blanco{
+        width: 100%;
+    }
+    .botones {
+        display: none;
+    }
+    .botones-movil{
+        display: initial;
+    }
+    .titulo-collapse{
+        background-color: #0d6aad;
+        color: #FFF;
+    }
+    .contenido{
+        height: 5000px;
+    }
+}
+
+
+#formNUser{
+    position: relative;
+    margin: 0 20px;
+
+}
